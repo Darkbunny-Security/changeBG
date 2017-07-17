@@ -1,5 +1,6 @@
 #!/bin/bash
 #psychø
+#Agent-2k40
 
 #Funções e Variveis
 Imagem(){

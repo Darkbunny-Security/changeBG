@@ -1,18 +1,22 @@
 #!/bin/bash
-#psychø
-#Agent-2k40
+#
+# Code by: CØÐ'A®C; Agent-2k40
+# DarkBunny
 
-#Funções e Variveis
+Pula(){
+	echo "";
+}
+
 Imagem(){
-	IMAGEM="`cd /home/psychoraptor/Downloads/;ls *.jpg | shuf -n 1`";
+	IMAGEM="`cd /home/psycho/Pictures/; ls *.jpg | shuf -n 1`";
 }
 
 Set(){
-	SET=`gsettings set org.gnome.desktop.background picture-uri "file:///home/psychoraptor/Downloads/$IMAGEM"`
+	SET=`gsettings set org.gnome.desktop.background picture-uri "file:///home/psycho/Pictures/$IMAGEM"`
 }
 
 Atual(){
-	echo "Papel de parede atual: $IMAGEM";
+	echo "[+] Papel de parede atual: $IMAGEM";
 }
 
 Muda(){
